@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #d5def5;
+}
+
+.main{
+    width: calc(100% - 300px);
+}
+
+/* History */
+
+.history{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: #d5def5;
+}
+
+.historyTitle{
+    margin: 0;
+    padding: 8px;
+    background-color: #430f58;
+    color: white;
+}
+
+.historyContent{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.historyContent button{
+    text-align: left;
+    cursor: pointer;
+}
+
